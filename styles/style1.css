@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(238, 235, 232);
     font-family: 'Playfair Display', serif;
@@ -13,6 +16,8 @@ header {
 #top {
     font-size: 5em;
     line-height: 10px;
+    padding: 45px;
+    margin: 0px;
 }
 #top, h2 {
     letter-spacing: 1px;
@@ -32,6 +37,6 @@ th, td {
     padding: 5px;
     border-bottom: 1px solid black;
 }
-.center-image {
+div.centered {
     text-align: center;
 }
