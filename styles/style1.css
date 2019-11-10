@@ -1,3 +1,10 @@
-#top {
-
+body {
+    background-color: rgb(238, 235, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top, h2 {
+    color: black;
+}
+.songs, .albums {
+    color: black;
 }
