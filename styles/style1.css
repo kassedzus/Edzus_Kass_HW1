@@ -2,9 +2,6 @@ body {
     background-color: rgb(238, 235, 232);
     font-family: 'Playfair Display', serif;
 }
-.songs, .albums {
-    color: black;
-}
 .list-title {
     line-height: 2em;
     font-weight: bold;
@@ -12,9 +9,6 @@ body {
 }
 header {
     text-align: center;
-}
-span {
-    text-transform: uppercase;;
 }
 #top {
     font-size: 5em;
@@ -34,15 +28,10 @@ span {
 table {
     text-align: center;
 }
-table {
-    padding: 10px;
-}
 th, td {
     padding: 5px;
+    border-bottom: 1px solid black;
 }
-/* img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} */
+.center-image {
+    text-align: center;
+}
