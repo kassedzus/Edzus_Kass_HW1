@@ -8,6 +8,7 @@ body {
 .list-title {
     line-height: 2em;
     font-weight: bold;
+    text-indent: 15px;
 }
 span {
     text-transform: uppercase;;
@@ -15,4 +16,23 @@ span {
 #top, h2 {
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-align: center;
+}
+.name {
+    text-align: right;
+}
+.album-title {
+    text-align: left;
+}
+table {
+    text-align: center;
+}
+table {
+    padding: 10px;
+}
+th, td {
+    padding: 5px;
+}
+img {
+    
 }
